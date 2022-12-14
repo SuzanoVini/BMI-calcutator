@@ -1,9 +1,11 @@
 # BMI-calcutator
-## Step by step of how to create a Body mass index calculator
+## Step by step of how to create a body mass index calculator
 
 ![homer weight](https://github.com/SuzanoVini/BMI-calcutator/blob/main/homer%20weight.gif)
 
 The BMI calculator basically divides the weight by the square of  height of an individual to measure its body mass so that it can indicate its weight category, although it is not a diagnose of body fatness.
+
+### *It was used Visual Studio Code (VSC)*
 
 # Step by Step
 The first step to create the BMI calculator was to open a new folder in Visual Studio Code to group all of the program’s files. It was then created a reference list file for all weight categories in JSON (JavaScript Object Notation) named as listing.js.
