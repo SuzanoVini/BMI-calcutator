@@ -1,2 +1,2 @@
 # BMI-calcutator
-Body mass index calculator :calculator:
+Body mass index calculator
