@@ -33,7 +33,7 @@ Since it was not created a data server, an extension named LiveServer in VSCode 
 
 ![Live Server](https://github.com/SuzanoVini/BMI-calcutator/blob/main/live%20server%20install.png)
 
-Obs.: It always has to be opened as a live server to work.
+Obs.: It always has to be opened with a live server to work.
 
 Next step was to create the Javascript file named “searchCategory” to get the information from the JSON file “listing.js” and bring it to the calculator so that it can tell wich weight category the individual fits in.
 
