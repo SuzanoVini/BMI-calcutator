@@ -3,7 +3,19 @@
 
 ![homer weight](https://github.com/SuzanoVini/BMI-calcutator/blob/main/homer%20weight.gif)
 
-The BMI calculator basically divides the weight by the square of  height of an individual to measure its body mass so that it can indicate its weight category, although it is not a diagnose of body fatness.
+## About this project
+
+The BMI calculator is basically a tool that divides the weight by the square of height of an individual to measure its body mass so that it can indicate its weight category, although it is not a diagnose of body fatness.
+
+## Why?
+
+This project is part os my pernonal portifolio, i'm a begginer program developer and i intend to study in Kwantlen Polytechnic University in Canada, so i'll be happy if you could provide me any feedback about thhe project, code structure or anything that you can report that could make me a better developer!
+
+Email-me: viniciusgomesrs@hotmail.com
+
+Connect with me at [linkedin](https://br.linkedin.com/in/vinicius-suzano-6828941a2/en?trk=people-guest_people_search-card&original_referer=)
+
+You can also use this project as you wish!
 
 ## Software Requirements
 -*Visual Studio Code (VSCode)* [download VSCode](https://code.visualstudio.com/download)
