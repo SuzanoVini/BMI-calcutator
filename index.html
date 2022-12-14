@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        div, button {
+            padding: 15px;
+        }
+        form{
+            margin-left: 150px;
+            margin-top: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="resultBmi">Gender: </label>
+            <input type="text" id="gender">
+        </div>
+        <div>
+            <label for="weight">type your weight in Kg:</label>
+            <input type="number" id="weight">
+        </div>
+        <div>
+            <label for="height">Type your height in M:</label>
+            <input type="number" id="height">
+        </div>   
+        <div> BMI value = <input id="result"> </div>
+        <div> <button id='calculate'>Calculate BMI</button> </div>
+        <div><p id="resultBmi"></p></div>
+    </form>
+    <script src="searchCategory.js"></script> <!-- This line of code calls a Javascript file -->
+</body>
+</html>
