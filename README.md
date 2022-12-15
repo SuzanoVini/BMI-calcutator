@@ -9,7 +9,7 @@ The BMI calculator is basically a tool that divides the weight by the square of 
 
 ## Why?
 
-This project is part os my pernonal portifolio, i'm a begginer program developer and i intend to study in Kwantlen Polytechnic University in Canada, so i'll be happy if you could provide me any feedback about thhe project, code structure or anything that you can report that could make me a better developer!
+This project is part os my pernonal portifolio, i'm a begginer program developer and i intend to study at Kwantlen Polytechnic University in Canada, so i'll be happy if you could provide me any feedback about thhe project, code structure or anything that you can report that could make me a better developer!
 
 Email-me: viniciusgomesrs@hotmail.com
 
@@ -25,16 +25,16 @@ You can also use this project as you wish!
 -*A browser of your choice (I used Opera GX)* [download Opera GX](https://www.opera.com/gx?utm_id=EAIaIQobChMIvuXAreL5-wIV2hTUAR0tmgZVEAAYASAAEgJ2KfD_BwE&utm_medium=pa&utm_source=google&utm_campaign=OGX_BR_Search_PT_T1_Brand_V2&gclid=EAIaIQobChMIvuXAreL5-wIV2hTUAR0tmgZVEAAYASAAEgJ2KfD_BwE)
 
 ## Step by Step
-The first step to create the BMI calculator was to open a new folder in Visual Studio Code to group all of the program’s files. It was then created a reference list file for all weight categories in JSON (JavaScript Object Notation) named as listing.js.
+The first step to create the BMI calculator was to open a new folder in Visual Studio Code to group all of the program’s files. It was then created a reference list file for all weight categories in JSON (JavaScript Object Notation) named as [listing.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/listing.js).
 
 ![listing](https://github.com/SuzanoVini/BMI-calcutator/blob/main/lt%20img.png)
 
-The second step was to create a interaction screen for the user, named index.html, therefore it had to be writen a HTML code to “draw” this screen.
+The second step was to create a interaction screen for the user, named [index.html](https://github.com/SuzanoVini/BMI-calcutator/blob/main/index.html), therefore it had to be writen a HTML code to “draw” this screen.
 
 ![index](https://github.com/SuzanoVini/BMI-calcutator/blob/main/indx%20img.png)
 
-This file contains coding that creates labels to type the gender, weight and height information, show the results value and the calulate button. It also contains a script code to bring an external script file to it, wich in this case is the searchcategory.js file. 
-The HTML file tells the searchCategory.JS to the the following operations:
+This file contains coding that creates labels to type the gender, weight and height information, show the results value and the calulate button. It also contains a script code to bring an external script file to it, wich in this case is the [searchcategory.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js) file. 
+The HTML file tells the [searchCategory.JS](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js) to the the following operations:
 1.	Recieve the iformation the used typed and verify if it is not empty;
 2.	Convert it to allow the BMI calculus, If those are not empty;
 3.	Calcutale it;
@@ -47,7 +47,7 @@ Since it was not created a data server, an extension named LiveServer in VSCode 
 
 Obs.: It always has to be opened with a live server to work.
 
-Next step was to create the Javascript file named “searchCategory” to get the information from the JSON file “listing.js” and bring it to the calculator so that it can tell wich weight category the individual fits in.
+Next step was to create the Javascript file named “[searchCategory.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js)” to get the information from the JSON file “[listing.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/listing.js)” and bring it to the calculator so that it can tell wich weight category the individual fits in.
 
 *JSON is a notation, in other words, it is the format of the data we are processing.*
 This file is reponsable for validating the typed information and convert it when the user clicks the button “Calculate BMI” for the calculus to be done
@@ -61,14 +61,14 @@ var categories = JSON.parse(answer);
         categories.forEach(function(category) {
             console.log(category);
         });
-The command will run throught the various categories in listing.js file and print the resulting vectors in console.
+The command will run throught the various categories in [listing.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/listing.js) file and print the resulting vectors in console.
 
-It had also to be added value conditions to match the information contained in listing.js using the “if... else” command followed by an error alert for the user to know the input value is not acceptable.
+It had also to be added value conditions to match the information contained in [listing.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/listing.js) using the “if... else” command followed by an error alert for the user to know the input value is not acceptable.
 
 The searchCategory.js file now looks like this:
 
 ![searchCategory](https://github.com/SuzanoVini/BMI-calcutator/blob/main/SC%20img.png)
 
-After creating all the three files (Listing.js, Index.html and searchCategory.js) and opening the HTML file with a live server the calculator is finaly working!
+After creating all the three files ([Listing.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/listing.js), [Index.html](https://github.com/SuzanoVini/BMI-calcutator/blob/main/index.html) and [searchCategory.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js)) and opening the HTML file with a live server the calculator is finaly working!
 
 ![page layout](https://github.com/SuzanoVini/BMI-calcutator/blob/main/page%20layout.png)
