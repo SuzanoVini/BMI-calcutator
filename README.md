@@ -9,7 +9,7 @@ The BMI calculator is basically a tool that divides the weight by the square of 
 
 ## Why?
 
-This project is part os my pernonal portifolio, i'm a begginer program developer and i intend to study at Kwantlen Polytechnic University in Canada, so i'll be happy if you could provide me any feedback about the project, code structure or anything that you can report that could make me a better developer!
+This project is part os my pernonal portifolio, I'm a begginer program developer and I intend to study at Kwantlen Polytechnic University in Canada, so I'll be happy if you could provide me any feedback about the project, code structure or anything that you can report that could make me a better developer!
 
 Email-me: viniciusgomesrs@hotmail.com
 
