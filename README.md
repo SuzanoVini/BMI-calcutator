@@ -33,7 +33,7 @@ The second step was to create a interaction screen for the user, named [index.ht
 
 ![index](https://github.com/SuzanoVini/BMI-calcutator/blob/main/indx%20img.png)
 
-This file contains coding that creates labels to type the gender, weight and height information, show the results value and the calulate button. It also contains a script code to bring an external script file to it, wich in this case is the [searchcategory.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js) file. 
+This file contains coding that creates labels to type the gender, weight and height information, show the results value, the calulate button and a reference link to a css file. It also contains a script code to bring an external script file to it, wich in this case is the [searchcategory.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js) file. 
 The HTML file tells the [searchCategory.JS](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js) to the the following operations:
 1.	Recieve the iformation the used typed and verify if it is not empty;
 2.	Convert it to allow the BMI calculus, If those are not empty;
@@ -41,7 +41,7 @@ The HTML file tells the [searchCategory.JS](https://github.com/SuzanoVini/BMI-ca
 4.	Search the category the user fits in using the BMI value generated;
 5.	Once the script has found the category it will show the results in HTML page.  
  
-Since it was not created a data server, an extension named LiveServer in VSCode had to be downloaded so that the web browser could interpret that the data is storaged in a server, that is essencial for a request to work.
+Since it is a web page and it was not created a data server, an extension named LiveServer in VSCode had to be downloaded so that the web browser could interpret that the data is storaged in a server, that is essencial for a request to work.
 
 ![Live Server](https://github.com/SuzanoVini/BMI-calcutator/blob/main/live%20server%20install.png)
 
