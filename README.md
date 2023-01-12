@@ -70,7 +70,8 @@ The searchCategory.js file now looks like this:
 ![searchCategory](https://github.com/SuzanoVini/BMI-calcutator/blob/main/SC%20img.png)
 
 It was then created a css file, named as [styles.css](https://github.com/SuzanoVini/BMI-calcutator/blob/main/styles.css) to add some style to the web page.
+![css image](https://github.com/SuzanoVini/BMI-calcutator/blob/main/css%20img.png)
 
 After creating all the four files ([Listing.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/listing.js), [Index.html](https://github.com/SuzanoVini/BMI-calcutator/blob/main/index.html), [searchCategory.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js) and [styles.css](https://github.com/SuzanoVini/BMI-calcutator/blob/main/styles.css)) and opening the HTML file with a live server the calculator is finaly working!
 
-![page layout](https://github.com/SuzanoVini/BMI-calcutator/blob/main/page%20layout.png)
+![page layout](https://github.com/SuzanoVini/BMI-calcutator/blob/main/page-layout.png)
