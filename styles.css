@@ -1,4 +1,13 @@
 <style>
+    /* centralizes in the page */
+        div, button {
+            padding: 15px;
+        }
+        form{
+            margin-left: 150px;
+            margin-top: 150px;
+        }
+
     /* Add some styling to the form */
     form {
         margin: 0 auto; /* Center the form on the page */
