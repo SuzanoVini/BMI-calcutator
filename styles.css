@@ -1,0 +1,43 @@
+<style>
+    /* Add some styling to the form */
+    form {
+        margin: 0 auto; /* Center the form on the page */
+        width: 30%; /* Set the width of the form to 30% of the page */
+        padding: 15px; /* Reduce padding to the form */
+        border-radius: 5px; /* Keep the border radius */
+        box-shadow: 0 0 10px #999; /* Keep the subtle shadow */
+    }
+
+    /* Add some styling to the input fields */
+    input[type="text"], input[type="number"] {
+        width: 100%; /* Keep the width of the input fields to 100% */
+        padding: 6px 10px; /* Reduce padding to the input fields */
+        margin: 4px 0; /* Reduce margin to the input fields */
+        box-sizing: border-box; /* Keep the box-sizing of the input fields */
+        border: 2px solid #ffa500; /* Change the border color to orange */
+        border-radius: 4px; /* Keep the rounded corners of the input fields */
+    }
+
+    /* Add some styling to the button */
+    button {
+        width: 100%; /* Keep the width of the button to 100% */
+        background-color: #ffa500; /* Change the background color of the button to orange */
+        color: white; /* Keep the text color of the button as white */
+        padding: 7px 10px; /* Reduce padding to the button */
+        margin: 4px 0; /* Reduce margin to the button */
+        border: none; /* Keep the border removed from the button */
+        border-radius: 4px; /* Keep the rounded corners of the button */
+        cursor: pointer; /* Keep the cursor on the button */
+    }
+
+    /* Add some hover styling to the button */
+    button:hover {
+        background-color: #ff8c00; /* Change the background color of the button on hover to a darker orange */
+    }
+
+    /* Add some styling to the result display */
+    #result {
+        font-weight: bold; /* Keep the result display text bold */
+        color: #ffa500; /* Change the color of the result display text to orange */
+    }
+</style>
