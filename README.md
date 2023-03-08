@@ -58,7 +58,7 @@ The variable is the content in JASON format. In this case the code is inside the
 To run trought the elements of a vector it is used a loop estructure called “for Each”:
 var categories = JSON.parse(answer);
 
-        categories.forEach(function(category) {
+        categories.forEach(function(category)) {
             console.log(category);
         });
 The command will run throught the various categories in [listing.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/listing.js) file and print the resulting vectors in console.
