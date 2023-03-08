@@ -36,7 +36,7 @@ The second step was to create a interaction screen for the user, named [index.ht
 This file contains coding that creates labels to type the gender, weight and height information, show the results value, the calulate button and a reference link to a css file. It also contains a script code to bring an external script file to it, wich in this case is the [searchcategory.js](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js) file. 
 The HTML file tells the [searchCategory.JS](https://github.com/SuzanoVini/BMI-calcutator/blob/main/searchCategory.js) to the the following operations:
 1.	Recieve the iformation the user typed and verify if it is not empty;
-2.	Convert it to allow the BMI calculus, If those are not empty;
+2.	Convert it to allow the BMI calculus, if those are not empty;
 3.	Calcutale it;
 4.	Search the category the user fits in using the BMI value generated;
 5.	Once the script has found the category it will show the results in HTML page.  
