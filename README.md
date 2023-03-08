@@ -53,7 +53,7 @@ Next step was to create the Javascript file named “[searchCategory.js](https:/
 This file is reponsable for validating the typed information and convert it when the user clicks the button “Calculate BMI” for the calculus to be done
  A command that starts “translating” JSON to a known format, an array in this case, is JSON.parse and it works like this:
 
-JSON.parse(variablel)
+JSON.parse(variable)
 The variable is the content in JASON format. In this case the code is inside the variable “answer”.
 To run trought the elements of a vector it is used a loop estructure called “for Each”:
 var categories = JSON.parse(answer);
