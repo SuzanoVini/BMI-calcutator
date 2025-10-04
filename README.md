@@ -1,4 +1,4 @@
-# BMI-calcutator
+# BMI-calculator
 ## Creating a body mass index calculator
 
 ![homer weight](https://github.com/SuzanoVini/BMI-calcutator/blob/main/homer%20weight.gif)
